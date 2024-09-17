@@ -1,5 +1,5 @@
 [build]
-  command = "npm run export"  # export command for static Next.js site
+  command = "npx next export"  # export command for static Next.js site
   publish = "out"  # static site directory
 
 
