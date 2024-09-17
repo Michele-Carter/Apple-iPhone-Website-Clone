@@ -8,7 +8,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "build": "next build",
-    "export": "next export"  // static export script
+    "export": "next export"  
   },
   "dependencies": {
     "@gsap/react": "^2.1.1",
