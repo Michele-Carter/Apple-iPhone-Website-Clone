@@ -25,3 +25,10 @@ dist-ssr
 
 # Sentry Config File
 .env.sentry-build-plugin
+
+# next.js
+/.next/
+/out/
+
+#production
+/build
