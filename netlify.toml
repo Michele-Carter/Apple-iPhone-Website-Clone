@@ -1,5 +1,9 @@
 [build]
-  command = "npx next export"  # export command for static Next.js site
-  publish = "out"  # static site directory
+  command = "npm run build" # Only build command is needed now
+  publish = "out"           # Output directory after build
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
 
 
