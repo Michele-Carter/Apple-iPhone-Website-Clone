@@ -4,7 +4,14 @@ const nextConfig = {
   distDir: ".next"
   };
   
-  module.exports = nextConfig;
+  module.exports = {
+    exportPathMap: function () {
+      return {
+        '/': { page: '/' },
+        // Add other pages here
+      };
+    },
+  };
   
   
   
