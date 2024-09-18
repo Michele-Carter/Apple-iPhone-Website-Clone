@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build" # Only build command is needed now
+  command = "npm run export" # Only build command is needed now
   publish = "out"           # Output directory after build
 
 
