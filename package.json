@@ -4,12 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "next dev",
-    "lint": "eslint .",
+    "dev": "vite",
+    "lint": "vite build",
     "preview": "vite preview",
-    "build": "next build",
-    "start": "next start",
-    "export": "next export" 
+    "build": "vite build"
   },
   "dependencies": {
     "@gsap/react": "^2.1.1",
@@ -19,7 +17,6 @@
     "@sentry/react": "^8.30.0",
     "@sentry/vite-plugin": "^2.22.4",
     "gsap": "^3.12.5",
-    "next": "^14.2.12",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "three": "^0.168.0"
