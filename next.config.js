@@ -1,16 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'export',  // ensures Next.js builds a static export
-};
-  
-module.exports = {
+    output: 'export', // Static export
     exportPathMap: function () {
       return {
-        '/': { page: '/' },
+        '/': { page: '/' }, // Define the path for your homepage
       };
     },
   };
   
   module.exports = nextConfig;
+  
   
   
