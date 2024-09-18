@@ -1,14 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'export', // Static export
-    exportPathMap: function () {
-      return {
-        '/': { page: '/' }, // Define the path for your homepage
-      };
-    },
+    output: 'export', // Ensures Next.js builds a static export
   };
   
   module.exports = nextConfig;
+  
   
   
   

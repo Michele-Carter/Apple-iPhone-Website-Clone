@@ -2,8 +2,7 @@
   command = "npm run build" # Only build command is needed now
   publish = "out"           # Output directory after build
 
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
+
 
 
 
